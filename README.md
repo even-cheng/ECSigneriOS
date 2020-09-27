@@ -1,4 +1,5 @@
 #ECSigner签名iphone客户端
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/ecsigner-iOS.png)
 
 ###ECSigner使用说明：
 #####1、本工具仅供内部合法使用，请勿使用本工具签名非法APP，否则开发者有权终止您的使用权限，所产生一切后果均与开发者无关。
