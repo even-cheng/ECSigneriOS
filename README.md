@@ -1,14 +1,15 @@
 # ECSigner签名iphone客户端
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/ecsigner-iOS.png)
 
-## 2.0新增账号签（超级签）
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/homev2.png)
+## v2.0新增：
+#### 账号签（超级签）
 #### 证书详情和状态读取
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/cer_info2.png)
 #### 包详情和证书文件读取
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/ipa_info.png)
 #### 下载中心（支持自动下载并分类，支持plist地址自动解析IPA下载）
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/download.png)
+
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign1.png)
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign2.png)
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign3.png)
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign4.png)
 
 ### ECSigner使用说明：
 ##### 1、本工具仅供内部合法使用，请勿使用本工具签名非法APP，否则开发者有权终止您的使用权限，所产生一切后果均与开发者无关。
