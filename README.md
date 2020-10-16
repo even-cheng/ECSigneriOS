@@ -17,6 +17,8 @@
 ![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign2.png)
 ![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign3.png)
 ![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign4.png)
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign5.png)
+![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign6.png)
 
 ### ECSigner使用说明：
 ##### 1、本工具仅供内部合法使用，请勿使用本工具签名非法APP，否则开发者有权终止您的使用权限，所产生一切后果均与开发者无关。
@@ -31,4 +33,6 @@
 ##### 3、如需加锁管理，请先注册您的Leancloud账号，并创建一个APP，然后将您的APPID和key等信息添加到ECSigner的服务器选项。
 ##### 4、如需在线安装，请在leancloud后台配置文件-设置，服务器改为https。
 ### 5、其他问题，请联系开发者QQ492293215或在QQ"ECSigner签名交流群(837459998)"里提问。
+
+
 
