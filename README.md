@@ -1,4 +1,4 @@
-# ECSigner签名iphone客户端
+# ECSigner签名iphone客户端(安装包请前往Release处下载)
 
 ## v4.3新增:
 #### 1，同步高级版功能
