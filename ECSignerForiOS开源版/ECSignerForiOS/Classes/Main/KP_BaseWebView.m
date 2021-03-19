@@ -2,7 +2,7 @@
 //  KP_BaseWebView.m
 //  YouXiSDK
 //
-//  Created by 快游 on 2019/11/9.
+//  Created by Even on 2019/11/9.
 //  Copyright © 2019 zhengcong. All rights reserved.
 //
 

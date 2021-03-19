@@ -55,7 +55,7 @@
     self.window.rootViewController = [ECMainTabbarController new];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-        
+   
     //全局键盘设置
     [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
     [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;

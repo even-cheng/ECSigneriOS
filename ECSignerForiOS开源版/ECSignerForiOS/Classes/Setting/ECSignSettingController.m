@@ -2,7 +2,7 @@
 //  ECSignSettingController.m
 //  ECSignerForiOS
 //
-//  Created by 快游 on 2020/11/26.
+//  Created by Even on 2020/11/26.
 //  Copyright © 2020 even_cheng. All rights reserved.
 //
 

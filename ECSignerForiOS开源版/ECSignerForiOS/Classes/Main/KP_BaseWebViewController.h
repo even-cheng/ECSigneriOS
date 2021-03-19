@@ -2,7 +2,7 @@
 //  KP_BaseWebViewController.h
 //  YouXiSDK
 //
-//  Created by 快游 on 2020/10/14.
+//  Created by Even on 2020/10/14.
 //  Copyright © 2020 zhengcong. All rights reserved.
 //
 

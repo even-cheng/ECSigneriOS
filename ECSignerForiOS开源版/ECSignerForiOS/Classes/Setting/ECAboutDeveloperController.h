@@ -2,7 +2,7 @@
 //  ECAboutDeveloperController.h
 //  ECSignerForiOS
 //
-//  Created by 快游 on 2020/9/28.
+//  Created by Even on 2020/9/28.
 //  Copyright © 2020 even_cheng. All rights reserved.
 //
 

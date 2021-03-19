@@ -2,7 +2,7 @@
 //  NSFileManager+CustomAttribute.m
 //  YouXiSDK
 //
-//  Created by 快游 on 2020/11/9.
+//  Created by Even on 2020/11/9.
 //  Copyright © 2020 zhengcong. All rights reserved.
 //
 
