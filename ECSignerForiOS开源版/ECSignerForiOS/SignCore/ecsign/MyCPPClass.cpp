@@ -37,12 +37,6 @@ char* MyCPPClass::getAppCachePath (char* filePath)
     return result;
 }
 
-char* MyCPPClass::getInjectLinkPath(void)
-{
-    char* result = _impl->getInjectLinkPath();
-    return result;
-}
-
 bool MyCPPClass::unzip(char* zipPath, char* outPath)
 {
     return _impl->unzip(zipPath, outPath);
@@ -52,6 +46,7 @@ void MyCPPClass::zip(char* filePath, char* zipPath, int level)
 {
     _impl->zip(filePath, zipPath, level);
 }
+
 
 bool MyCPPClass::moveFile(char* fromPath, char* toPath, char* cer_name)
 {

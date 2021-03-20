@@ -28,6 +28,7 @@ public:
     bool moveFile(char* fromPath, char* toPath, char* cer_name);
     char* getFrameworkExecutablePath(char* filePath);
 
+
 private:
     MyClassImpl * _impl;
 };

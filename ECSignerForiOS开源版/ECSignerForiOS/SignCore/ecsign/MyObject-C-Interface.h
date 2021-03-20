@@ -17,13 +17,11 @@ public:
     
     void init( void );
     char* getAppCachePath(char* filePath);
-    char* getInjectLinkPath(void);
     bool unzip(char* zipPath, char* outPath);
     void zip(char* filePath, char* zipPath, int level);
     bool moveFile(char* fromPath, char* toPath, char* cer_name);
     char* getAppExecutablePath(char* appPath, char* executableName);
     char* getFrameworkExecutablePath(char* filePath);
-    
 private:
     void * self;
 };

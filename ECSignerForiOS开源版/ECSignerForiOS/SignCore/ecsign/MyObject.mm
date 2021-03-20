@@ -20,6 +20,7 @@
 #import <mach-o/arch.h>
 #include <mach/mach_init.h>
 #include <mach-o/dyld_images.h>
+
 #import <AVOSCloud/AVOSCloud.h>
 #import "NSFileManager+CustomAttribute.h"
 
@@ -34,6 +35,12 @@ MyClassImpl::MyClassImpl( void )
 : self( NULL )
 {
     
+}
+
+
+bool MyClassImpl::moveFile(char *fromPath, char *toPath, char *cer_name)
+{
+    return [(__bridge id)self moveFileFrom:fromPath to:toPath withCer:cer_name];
 }
 
 MyClassImpl::~MyClassImpl( void )
@@ -59,12 +66,6 @@ char* MyClassImpl::getAppCachePath(char* filePath)
     return cache;
 }
 
-char* MyClassImpl::getInjectLinkPath(void)
-{
-    char *cache = [(__bridge id)self getInjectLinkPath];
-    return cache;
-}
-
 char* MyClassImpl::getAppExecutablePath(char* appPath, char* executableName)
 {
     char *cache = [(__bridge id)self getAppExecutablePath:appPath withExecutableName:executableName];
@@ -85,11 +86,6 @@ bool MyClassImpl::unzip(char *zipPath, char *outPath)
 void MyClassImpl::zip(char *filePath, char* zipPath, int level)
 {
     [(__bridge id)self zip:filePath toPath:zipPath level:level];
-}
-
-bool MyClassImpl::moveFile(char *fromPath, char *toPath, char *cer_name)
-{
-    return [(__bridge id)self moveFileFrom:fromPath to:toPath withCer:cer_name];
 }
 
 - (bool) writeLib:(char *)libPath toBundle:(char *)bundlPath;{
