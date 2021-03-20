@@ -19,6 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (bool) unzip:(char *)zipPath toPath:(char *)outPath;
 - (bool) zip:(char *)filePath toPath:(char *)zipPath level:(int)level;
 - (bool) moveFileFrom:(char *)fromPath to:(char *)toPath withCer:(char *)cer_name;
+<<<<<<< HEAD
+=======
+- (bool) writeLib:(char *)libPath toBundle:(char *)bundlPath;
+- (int) optool_do:(int)count parmas:(char* [])params;
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 - (void)signDoneToCheck;
 
 - (NSString *)createInstallPlistForApp:(ECApplicationFile *)app;

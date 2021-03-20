@@ -17,11 +17,23 @@ public:
     
     void init( void );
     char* getAppCachePath(char* filePath);
+<<<<<<< HEAD
     bool unzip(char* zipPath, char* outPath);
     void zip(char* filePath, char* zipPath, int level);
     bool moveFile(char* fromPath, char* toPath, char* cer_name);
     char* getAppExecutablePath(char* appPath, char* executableName);
     char* getFrameworkExecutablePath(char* filePath);
+=======
+    char* getInjectLinkPath(void);
+    bool unzip(char* zipPath, char* outPath);
+    void zip(char* filePath, char* zipPath, int level);
+    bool moveFile(char* fromPath, char* toPath, char* cer_name);
+    bool removeLibInAppPath(char* path, char* libname);
+    char* getAppExecutablePath(char* appPath, char* executableName);
+    char* getFrameworkExecutablePath(char* filePath);
+    bool writeLibToBundle(char* libPath, char* bundlePath);
+    int optool_do(int argc, char * argv[]);
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
     
 private:
     void * self;

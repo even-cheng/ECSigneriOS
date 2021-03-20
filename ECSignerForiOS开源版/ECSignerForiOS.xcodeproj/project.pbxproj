@@ -42,6 +42,10 @@
 		140C9F0625552FD9008A420D /* ECCacheFileTypeChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 140C9F0525552FD9008A420D /* ECCacheFileTypeChooseView.m */; };
 		140D0E9E253D5C560067EF30 /* KP_BaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 140D0E9B253D5C550067EF30 /* KP_BaseWebView.m */; };
 		140D0E9F253D5C560067EF30 /* KP_BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140D0E9D253D5C560067EF30 /* KP_BaseWebViewController.m */; };
+<<<<<<< HEAD
+=======
+		1410686B253E63BB0023EB36 /* optool.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B8605251DD7C5005656F0 /* optool.m */; };
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 		14180F1824F8DACC00CAF23B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14180F1724F8DACC00CAF23B /* AppDelegate.m */; };
 		14180F1B24F8DACC00CAF23B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14180F1A24F8DACC00CAF23B /* ViewController.m */; };
 		14180F1E24F8DACC00CAF23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14180F1C24F8DACC00CAF23B /* Main.storyboard */; };
@@ -81,6 +85,25 @@
 		145915F1250736B000EBDBC7 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 145915F0250736B000EBDBC7 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		145916052507651000EBDBC7 /* ECAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 145916042507651000EBDBC7 /* ECAlertView.m */; };
 		145B853A251D95BB005656F0 /* ECBundleInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B8539251D95BB005656F0 /* ECBundleInfoController.m */; };
+<<<<<<< HEAD
+=======
+		145B8608251DD7C5005656F0 /* XPMValuedArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85BD251DD7C5005656F0 /* XPMValuedArgument.m */; };
+		145B8609251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C0251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.m */; };
+		145B860A251DD7C5005656F0 /* XPMMutableAttributedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C1251DD7C5005656F0 /* XPMMutableAttributedArray.m */; };
+		145B860B251DD7C5005656F0 /* XPMArgsKonstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C4251DD7C5005656F0 /* XPMArgsKonstants.m */; };
+		145B860C251DD7C5005656F0 /* XPMArgumentSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C5251DD7C5005656F0 /* XPMArgumentSignature.m */; };
+		145B860D251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C6251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.m */; };
+		145B860E251DD7C5005656F0 /* XPMCountedArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C7251DD7C5005656F0 /* XPMCountedArgument.m */; };
+		145B860F251DD7C5005656F0 /* NSScanner+EscapedScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C8251DD7C5005656F0 /* NSScanner+EscapedScanning.m */; };
+		145B8610251DD7C5005656F0 /* XPMArgumentPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85C9251DD7C5005656F0 /* XPMArgumentPackage.m */; };
+		145B8611251DD7C5005656F0 /* XPMArgumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85CB251DD7C5005656F0 /* XPMArgumentParser.m */; };
+		145B8612251DD7C5005656F0 /* NSString+Indenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85CC251DD7C5005656F0 /* NSString+Indenter.m */; };
+		145B8613251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85CD251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.m */; };
+		145B8614251DD7C5005656F0 /* NSDictionary+RubyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B85CF251DD7C5005656F0 /* NSDictionary+RubyDescription.m */; };
+		145B8634251DD7C5005656F0 /* NSData+Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B8604251DD7C5005656F0 /* NSData+Reading.m */; };
+		145B8636251DD7C5005656F0 /* operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B8606251DD7C5005656F0 /* operations.m */; };
+		145B8637251DD7C5005656F0 /* headers.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B8607251DD7C5005656F0 /* headers.m */; };
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 		145BD20424FCA79C00378F11 /* optparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 145BD20324FCA79C00378F11 /* optparse.c */; };
 		146CAA432543D83B00AE5633 /* LCSignModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1496C90B2512F5F8008053F6 /* LCSignModel.mm */; };
 		146CAA442543D88600AE5633 /* MyObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 149A198524F9E2FE00789542 /* MyObject.mm */; };
@@ -437,6 +460,48 @@
 		145916042507651000EBDBC7 /* ECAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAlertView.m; sourceTree = "<group>"; };
 		145B8538251D95BB005656F0 /* ECBundleInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECBundleInfoController.h; sourceTree = "<group>"; };
 		145B8539251D95BB005656F0 /* ECBundleInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBundleInfoController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		145B85B5251DD7C5005656F0 /* NSData+Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Reading.h"; sourceTree = "<group>"; };
+		145B85B8251DD7C5005656F0 /* XPMArgumentPackage_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentPackage_Private.h; sourceTree = "<group>"; };
+		145B85B9251DD7C5005656F0 /* NSScanner+EscapedScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+EscapedScanning.h"; sourceTree = "<group>"; };
+		145B85BA251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XPMArgumentsNormalizer.h"; sourceTree = "<group>"; };
+		145B85BB251DD7C5005656F0 /* NSString+Indenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Indenter.h"; sourceTree = "<group>"; };
+		145B85BC251DD7C5005656F0 /* XPMArgumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentParser.h; sourceTree = "<group>"; };
+		145B85BD251DD7C5005656F0 /* XPMValuedArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMValuedArgument.m; sourceTree = "<group>"; };
+		145B85BE251DD7C5005656F0 /* XPMArgumentPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentPackage.h; sourceTree = "<group>"; };
+		145B85BF251DD7C5005656F0 /* ArgumentParser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArgumentParser-Prefix.pch"; sourceTree = "<group>"; };
+		145B85C0251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+XPMArgumentParser.m"; sourceTree = "<group>"; };
+		145B85C1251DD7C5005656F0 /* XPMMutableAttributedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMMutableAttributedArray.m; sourceTree = "<group>"; };
+		145B85C2251DD7C5005656F0 /* XPMArgumentSignature_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentSignature_Private.h; sourceTree = "<group>"; };
+		145B85C3251DD7C5005656F0 /* NSDictionary+RubyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RubyDescription.h"; sourceTree = "<group>"; };
+		145B85C4251DD7C5005656F0 /* XPMArgsKonstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgsKonstants.m; sourceTree = "<group>"; };
+		145B85C5251DD7C5005656F0 /* XPMArgumentSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentSignature.m; sourceTree = "<group>"; };
+		145B85C6251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArguments_Coalescer_Internal.m; sourceTree = "<group>"; };
+		145B85C7251DD7C5005656F0 /* XPMCountedArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMCountedArgument.m; sourceTree = "<group>"; };
+		145B85C8251DD7C5005656F0 /* NSScanner+EscapedScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+EscapedScanning.m"; sourceTree = "<group>"; };
+		145B85C9251DD7C5005656F0 /* XPMArgumentPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentPackage.m; sourceTree = "<group>"; };
+		145B85CA251DD7C5005656F0 /* XPMValuedArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMValuedArgument.h; sourceTree = "<group>"; };
+		145B85CB251DD7C5005656F0 /* XPMArgumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentParser.m; sourceTree = "<group>"; };
+		145B85CC251DD7C5005656F0 /* NSString+Indenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Indenter.m"; sourceTree = "<group>"; };
+		145B85CD251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XPMArgumentsNormalizer.m"; sourceTree = "<group>"; };
+		145B85CE251DD7C5005656F0 /* XPMArgsKonstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgsKonstants.h; sourceTree = "<group>"; };
+		145B85CF251DD7C5005656F0 /* NSDictionary+RubyDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RubyDescription.m"; sourceTree = "<group>"; };
+		145B85D0251DD7C5005656F0 /* XPMMutableAttributedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMMutableAttributedArray.h; sourceTree = "<group>"; };
+		145B85D1251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+XPMArgumentParser.h"; sourceTree = "<group>"; };
+		145B85D2251DD7C5005656F0 /* XPMCountedArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMCountedArgument.h; sourceTree = "<group>"; };
+		145B85D3251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArguments_Coalescer_Internal.h; sourceTree = "<group>"; };
+		145B85D4251DD7C5005656F0 /* XPMArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArguments.h; sourceTree = "<group>"; };
+		145B85D5251DD7C5005656F0 /* XPMArgumentSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentSignature.h; sourceTree = "<group>"; };
+		145B8601251DD7C5005656F0 /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
+		145B8602251DD7C5005656F0 /* headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		145B8603251DD7C5005656F0 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		145B8604251DD7C5005656F0 /* NSData+Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Reading.m"; sourceTree = "<group>"; };
+		145B8605251DD7C5005656F0 /* optool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = optool.m; sourceTree = "<group>"; };
+		145B8606251DD7C5005656F0 /* operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = operations.m; sourceTree = "<group>"; };
+		145B8607251DD7C5005656F0 /* headers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headers.m; sourceTree = "<group>"; };
+		145B8638251DDE25005656F0 /* optool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = optool.h; sourceTree = "<group>"; };
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 		145BD20224FCA79C00378F11 /* optparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optparse.h; sourceTree = "<group>"; };
 		145BD20324FCA79C00378F11 /* optparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = optparse.c; sourceTree = "<group>"; };
 		145BD2E324FCEB0400378F11 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
@@ -1072,6 +1137,71 @@
 			path = IpaDetail;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		145B85B4251DD7C5005656F0 /* optool */ = {
+			isa = PBXGroup;
+			children = (
+				145B85B5251DD7C5005656F0 /* NSData+Reading.h */,
+				145B85B6251DD7C5005656F0 /* FSArgumentParser */,
+				145B8601251DD7C5005656F0 /* operations.h */,
+				145B8602251DD7C5005656F0 /* headers.h */,
+				145B8603251DD7C5005656F0 /* defines.h */,
+				145B8604251DD7C5005656F0 /* NSData+Reading.m */,
+				145B8605251DD7C5005656F0 /* optool.m */,
+				145B8638251DDE25005656F0 /* optool.h */,
+				145B8606251DD7C5005656F0 /* operations.m */,
+				145B8607251DD7C5005656F0 /* headers.m */,
+			);
+			path = optool;
+			sourceTree = "<group>";
+		};
+		145B85B6251DD7C5005656F0 /* FSArgumentParser */ = {
+			isa = PBXGroup;
+			children = (
+				145B85B7251DD7C5005656F0 /* ArgumentParser */,
+			);
+			path = FSArgumentParser;
+			sourceTree = "<group>";
+		};
+		145B85B7251DD7C5005656F0 /* ArgumentParser */ = {
+			isa = PBXGroup;
+			children = (
+				145B85B8251DD7C5005656F0 /* XPMArgumentPackage_Private.h */,
+				145B85B9251DD7C5005656F0 /* NSScanner+EscapedScanning.h */,
+				145B85BA251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.h */,
+				145B85BB251DD7C5005656F0 /* NSString+Indenter.h */,
+				145B85BC251DD7C5005656F0 /* XPMArgumentParser.h */,
+				145B85BD251DD7C5005656F0 /* XPMValuedArgument.m */,
+				145B85BE251DD7C5005656F0 /* XPMArgumentPackage.h */,
+				145B85BF251DD7C5005656F0 /* ArgumentParser-Prefix.pch */,
+				145B85C0251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.m */,
+				145B85C1251DD7C5005656F0 /* XPMMutableAttributedArray.m */,
+				145B85C2251DD7C5005656F0 /* XPMArgumentSignature_Private.h */,
+				145B85C3251DD7C5005656F0 /* NSDictionary+RubyDescription.h */,
+				145B85C4251DD7C5005656F0 /* XPMArgsKonstants.m */,
+				145B85C5251DD7C5005656F0 /* XPMArgumentSignature.m */,
+				145B85C6251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.m */,
+				145B85C7251DD7C5005656F0 /* XPMCountedArgument.m */,
+				145B85C8251DD7C5005656F0 /* NSScanner+EscapedScanning.m */,
+				145B85C9251DD7C5005656F0 /* XPMArgumentPackage.m */,
+				145B85CA251DD7C5005656F0 /* XPMValuedArgument.h */,
+				145B85CB251DD7C5005656F0 /* XPMArgumentParser.m */,
+				145B85CC251DD7C5005656F0 /* NSString+Indenter.m */,
+				145B85CD251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.m */,
+				145B85CE251DD7C5005656F0 /* XPMArgsKonstants.h */,
+				145B85CF251DD7C5005656F0 /* NSDictionary+RubyDescription.m */,
+				145B85D0251DD7C5005656F0 /* XPMMutableAttributedArray.h */,
+				145B85D1251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.h */,
+				145B85D2251DD7C5005656F0 /* XPMCountedArgument.h */,
+				145B85D3251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.h */,
+				145B85D4251DD7C5005656F0 /* XPMArguments.h */,
+				145B85D5251DD7C5005656F0 /* XPMArgumentSignature.h */,
+			);
+			path = ArgumentParser;
+			sourceTree = "<group>";
+		};
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 		1476B009250EF57B005EB8E5 /* provision-dump */ = {
 			isa = PBXGroup;
 			children = (
@@ -1523,6 +1653,10 @@
 			isa = PBXGroup;
 			children = (
 				14DA7F3C2520334400A688FC /* Categorys */,
+<<<<<<< HEAD
+=======
+				145B85B4251DD7C5005656F0 /* optool */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1478C4CE25188B4E00CBBCDD /* HTTPServer */,
 				140536FC25118B7900D0101B /* TSMessage */,
 				148EC18E2510441A00FFDA71 /* LXWaveProgressView */,
@@ -1785,6 +1919,10 @@
 				1457F0492549610A0051A4DD /* ECProvDetailController.m in Sources */,
 				146CAA442543D88600AE5633 /* MyObject.mm in Sources */,
 				146CAA432543D83B00AE5633 /* LCSignModel.mm in Sources */,
+<<<<<<< HEAD
+=======
+				1410686B253E63BB0023EB36 /* optool.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				14D6B5682521635600F57436 /* ECAboutDeveloperController.m in Sources */,
 				140537132511D92C00D0101B /* NSString+Length.m in Sources */,
 				1478C54725188B5C00CBBCDD /* DDDispatchQueueLogFormatter.m in Sources */,
@@ -1797,6 +1935,11 @@
 				14AF62292574C7380066CF9D /* ECSignSettingController.m in Sources */,
 				149EAB2425062F4C009421AA /* SPButton.m in Sources */,
 				1477B2BA2508CA15009036FA /* DBModel.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B8612251DD7C5005656F0 /* NSString+Indenter.m in Sources */,
+				145B8637251DD7C5005656F0 /* headers.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1478C52B25188B5C00CBBCDD /* GCDAsyncSocket.m in Sources */,
 				1478C54A25188B5C00CBBCDD /* DDAbstractDatabaseLogger.m in Sources */,
 				1477B2D22508D531009036FA /* FMDatabaseQueue.m in Sources */,
@@ -1810,6 +1953,10 @@
 				1476B050250EF57C005EB8E5 /* ber_tlv_length.c in Sources */,
 				1441AF472558F3F300ED8878 /* NSFileManager+CustomAttribute.m in Sources */,
 				149EAB1E25062555009421AA /* UIBarButtonItem+SXCreate.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B8610251DD7C5005656F0 /* XPMArgumentPackage.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1477B2D42508D531009036FA /* FMDatabase.m in Sources */,
 				1476B046250EF57C005EB8E5 /* SignedXML.c in Sources */,
 				148EC1932510441B00FFDA71 /* YYWeakProxy.m in Sources */,
@@ -1826,6 +1973,10 @@
 				14180F4924F8DB1200CAF23B /* bundle.cpp in Sources */,
 				149EAB0725061C85009421AA /* ECMainTabbarController.m in Sources */,
 				14180F4424F8DB1200CAF23B /* base64.cpp in Sources */,
+<<<<<<< HEAD
+=======
+				145B8608251DD7C5005656F0 /* XPMValuedArgument.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				149EAB1625061D06009421AA /* ECSettingController.m in Sources */,
 				1477B2BF2508CA46009036FA /* ECFile.m in Sources */,
 				1478C52F25188B5C00CBBCDD /* HTTPFileResponse.m in Sources */,
@@ -1854,6 +2005,11 @@
 				14180F4624F8DB1200CAF23B /* signing.cpp in Sources */,
 				14CBB55725396EE800B593FD /* ECHttpsResponse.m in Sources */,
 				145915F1250736B000EBDBC7 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B8634251DD7C5005656F0 /* NSData+Reading.m in Sources */,
+				145B860B251DD7C5005656F0 /* XPMArgsKonstants.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1477B2D52508D531009036FA /* FMDatabasePool.m in Sources */,
 				1459159C25070E8B00EBDBC7 /* PickerTopView.m in Sources */,
 				14180F4524F8DB1200CAF23B /* json.cpp in Sources */,
@@ -1870,6 +2026,10 @@
 				140537172511E5F900D0101B /* LCAccount.m in Sources */,
 				149EAB0A25061C96009421AA /* ECSignHomeController.mm in Sources */,
 				1477B2D62508D531009036FA /* FMResultSet.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B860D251DD7C5005656F0 /* XPMArguments_Coalescer_Internal.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1405372225120E6600D0101B /* LCAccountChooseView.m in Sources */,
 				1405370925118B7A00D0101B /* TSBlurView.m in Sources */,
 				1478C53925188B5C00CBBCDD /* DDNumber.m in Sources */,
@@ -1877,6 +2037,10 @@
 				14180F1B24F8DACC00CAF23B /* ViewController.m in Sources */,
 				1476B055250EF57C005EB8E5 /* constraints.c in Sources */,
 				1478C52E25188B5C00CBBCDD /* HTTPDynamicFileResponse.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B860C251DD7C5005656F0 /* XPMArgumentSignature.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1478C53B25188B5C00CBBCDD /* DDRange.m in Sources */,
 				145B853A251D95BB005656F0 /* ECBundleInfoController.m in Sources */,
 				1406B898250233D700A226DD /* mz_crypt_apple.c in Sources */,
@@ -1889,7 +2053,13 @@
 				1476B045250EF57C005EB8E5 /* NativeInteger.c in Sources */,
 				14ADC772254150910029C7C1 /* ZFCommonHelper.m in Sources */,
 				140D0E9F253D5C560067EF30 /* KP_BaseWebViewController.m in Sources */,
+<<<<<<< HEAD
 				14ADC771254150910029C7C1 /* ZFDownloadManager.m in Sources */,
+=======
+				145B8611251DD7C5005656F0 /* XPMArgumentParser.m in Sources */,
+				14ADC771254150910029C7C1 /* ZFDownloadManager.m in Sources */,
+				145B860E251DD7C5005656F0 /* XPMCountedArgument.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1459159B25070E8B00EBDBC7 /* DK_DatePicker.m in Sources */,
 				145915E12507296C00EBDBC7 /* ECCertificateDetailController.m in Sources */,
 				1478C54B25188B5C00CBBCDD /* DDFileLogger.m in Sources */,
@@ -1899,6 +2069,10 @@
 				1406B89A250233D700A226DD /* mz_crypt.c in Sources */,
 				1478C54C25188B5C00CBBCDD /* DDASLLogCapture.m in Sources */,
 				1478C52D25188B5C00CBBCDD /* HTTPDataResponse.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B8636251DD7C5005656F0 /* operations.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				145915AD2507113700EBDBC7 /* UIWindow+Current.m in Sources */,
 				1478C54625188B5C00CBBCDD /* DDContextFilterLogFormatter.m in Sources */,
 				1406B89D250233D700A226DD /* mz_os.c in Sources */,
@@ -1910,11 +2084,21 @@
 				1406B897250233D700A226DD /* mz_zip_rw.c in Sources */,
 				1478C54825188B5C00CBBCDD /* DDMultiFormatter.m in Sources */,
 				145916052507651000EBDBC7 /* ECAlertView.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B860F251DD7C5005656F0 /* NSScanner+EscapedScanning.m in Sources */,
+				145B8614251DD7C5005656F0 /* NSDictionary+RubyDescription.m in Sources */,
+				145B8609251DD7C5005656F0 /* NSProcessInfo+XPMArgumentParser.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1476B053250EF57C005EB8E5 /* ber_tlv_tag.c in Sources */,
 				140C9F0225551F11008A420D /* ECCacheFilesController.m in Sources */,
 				1476B04A250EF57C005EB8E5 /* INTEGER.c in Sources */,
 				1476B056250EF57C005EB8E5 /* xer_encoder.c in Sources */,
 				1405370725118B7A00D0101B /* TSMessageView.m in Sources */,
+<<<<<<< HEAD
+=======
+				145B860A251DD7C5005656F0 /* XPMMutableAttributedArray.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1406B8A1250233D700A226DD /* mz_strm.c in Sources */,
 				1478C53125188B5C00CBBCDD /* HTTPRedirectResponse.m in Sources */,
 				14D6B57C25216E6C00F57436 /* ECQuestionViewController.m in Sources */,
@@ -1929,6 +2113,10 @@
 				1478C54325188B5C00CBBCDD /* DDTTYLogger.m in Sources */,
 				1477B2BB2508CA15009036FA /* DBHelper.m in Sources */,
 				149EAAFD2505E30C009421AA /* ECFileManager.mm in Sources */,
+<<<<<<< HEAD
+=======
+				145B8613251DD7C5005656F0 /* NSArray+XPMArgumentsNormalizer.m in Sources */,
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 				1406B89B250233D700A226DD /* mz_strm_wzaes.c in Sources */,
 				1476B040250EF57C005EB8E5 /* per_support.c in Sources */,
 				141A7D87250C62D6001E0D45 /* p12checker.cpp in Sources */,

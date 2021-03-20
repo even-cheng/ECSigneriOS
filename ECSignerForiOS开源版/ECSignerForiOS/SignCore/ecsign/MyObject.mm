@@ -20,6 +20,10 @@
 #import <mach-o/arch.h>
 #include <mach/mach_init.h>
 #include <mach-o/dyld_images.h>
+<<<<<<< HEAD
+=======
+#import "optool.h"
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 #import <AVOSCloud/AVOSCloud.h>
 #import "NSFileManager+CustomAttribute.h"
 
@@ -59,6 +63,15 @@ char* MyClassImpl::getAppCachePath(char* filePath)
     return cache;
 }
 
+<<<<<<< HEAD
+=======
+char* MyClassImpl::getInjectLinkPath(void)
+{
+    char *cache = [(__bridge id)self getInjectLinkPath];
+    return cache;
+}
+
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 char* MyClassImpl::getAppExecutablePath(char* appPath, char* executableName)
 {
     char *cache = [(__bridge id)self getAppExecutablePath:appPath withExecutableName:executableName];
@@ -81,11 +94,32 @@ void MyClassImpl::zip(char *filePath, char* zipPath, int level)
     [(__bridge id)self zip:filePath toPath:zipPath level:level];
 }
 
+<<<<<<< HEAD
+=======
+bool MyClassImpl::removeLibInAppPath(char *path, char *libname)
+{
+    return [(__bridge id)self removeLibInAppPath:path libname:libname];
+}
+
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 bool MyClassImpl::moveFile(char *fromPath, char *toPath, char *cer_name)
 {
     return [(__bridge id)self moveFileFrom:fromPath to:toPath withCer:cer_name];
 }
 
+<<<<<<< HEAD
+=======
+bool MyClassImpl::writeLibToBundle(char *libPath, char *bundlePath)
+{
+    return [(__bridge id)self writeLib:libPath toBundle:bundlePath];
+}
+
+int MyClassImpl::optool_do(int argc, char **argv)
+{
+    return [(__bridge id)self optool_do:argc parmas:argv];
+}
+
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 - (bool) writeLib:(char *)libPath toBundle:(char *)bundlPath;{
     
     BOOL exist = [[NSFileManager defaultManager] fileExistsAtPath:[NSString stringWithUTF8String:bundlPath]];
@@ -278,6 +312,23 @@ bool MyClassImpl::moveFile(char *fromPath, char *toPath, char *cer_name)
     return YES;
 }
 
+<<<<<<< HEAD
+=======
+
+- (int)optool_do:(int)count parmas:(char * _Nonnull *)params {
+
+    NSMutableArray* arr = [NSMutableArray array];
+    for (int i = 0; i < count; i ++) {
+        char *ptr = params[i];
+        NSString* obj = [NSString stringWithUTF8String:ptr];
+        [arr addObject:obj];
+    }
+    
+    int res = optool_do(arr.copy);
+    return res;
+}
+
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 - (NSString *)createInstallPlistForApp:(ECApplicationFile *)app{
     
     NSDictionary* bundle = [[ECFileManager sharedManager] getPlistInfo:app];
@@ -315,6 +366,13 @@ bool MyClassImpl::moveFile(char *fromPath, char *toPath, char *cer_name)
     return nil;
 }
 
+<<<<<<< HEAD
+=======
+- (NSArray <NSString*> *)checkLibsFromExecutable:(NSString *)path;{
+    return checkAllDyLibsForExecutable(path);
+}
+
+>>>>>>> ff593c9cc234797beaa3d018cc9beaedf3432cfd
 //打破循环引用，释放对象
 - (void) breakRetainCycly
 {
