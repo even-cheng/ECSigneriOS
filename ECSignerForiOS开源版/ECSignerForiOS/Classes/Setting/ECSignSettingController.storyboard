@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign Setting Controller-->
+        <scene sceneID="eNF-Mq-aeT">
+            <objects>
+                <viewController storyboardIdentifier="ECSignSettingController" id="Rcr-EY-IQr" customClass="ECSignSettingController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g5b-As-Ymx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCO-rW-hlx">
+                                <rect key="frame" x="0.0" y="45" width="414" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="签完自动删除原包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kU-x0-adj">
+                                        <rect key="frame" x="12" y="18.5" width="123" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kur-rg-Emj">
+                                        <rect key="frame" x="353" y="12" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="switchAction:" destination="Rcr-EY-IQr" eventType="valueChanged" id="6pW-gn-JSR"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="kur-rg-Emj" firstAttribute="centerY" secondItem="JCO-rW-hlx" secondAttribute="centerY" id="3Zp-V3-mAI"/>
+                                    <constraint firstAttribute="height" constant="55" id="FVD-wP-xHy"/>
+                                    <constraint firstItem="5kU-x0-adj" firstAttribute="centerY" secondItem="JCO-rW-hlx" secondAttribute="centerY" id="R1o-jn-86Z"/>
+                                    <constraint firstItem="5kU-x0-adj" firstAttribute="leading" secondItem="JCO-rW-hlx" secondAttribute="leading" constant="12" id="gda-8E-p49"/>
+                                    <constraint firstAttribute="trailing" secondItem="kur-rg-Emj" secondAttribute="trailing" constant="12" id="lX5-dL-E3B"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHC-VD-2a8">
+                                <rect key="frame" x="0.0" y="101" width="414" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="动态注入路径" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3x-vv-yv5">
+                                        <rect key="frame" x="12" y="18.5" width="92" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hXa-Sd-Fp0">
+                                        <rect key="frame" x="205" y="12" width="197" height="32"/>
+                                        <segments>
+                                            <segment title="@executable"/>
+                                            <segment title="@rpath"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="linkPathChangeAction:" destination="Rcr-EY-IQr" eventType="valueChanged" id="iZ6-Cu-YGM"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="3Hl-Yr-t8l"/>
+                                    <constraint firstItem="hXa-Sd-Fp0" firstAttribute="centerY" secondItem="eHC-VD-2a8" secondAttribute="centerY" id="IoZ-tI-d0U"/>
+                                    <constraint firstItem="u3x-vv-yv5" firstAttribute="centerY" secondItem="eHC-VD-2a8" secondAttribute="centerY" id="KNC-Z3-Kwf"/>
+                                    <constraint firstItem="u3x-vv-yv5" firstAttribute="leading" secondItem="eHC-VD-2a8" secondAttribute="leading" constant="12" id="U0m-ex-Mjp"/>
+                                    <constraint firstAttribute="trailing" secondItem="hXa-Sd-Fp0" secondAttribute="trailing" constant="12" id="Wr4-mH-bWf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iEz-x4-iHK"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eHC-VD-2a8" firstAttribute="trailing" secondItem="iEz-x4-iHK" secondAttribute="trailing" id="ARu-bl-64c"/>
+                            <constraint firstItem="eHC-VD-2a8" firstAttribute="leading" secondItem="iEz-x4-iHK" secondAttribute="leading" id="GGL-Ti-UC8"/>
+                            <constraint firstItem="JCO-rW-hlx" firstAttribute="top" secondItem="iEz-x4-iHK" secondAttribute="top" constant="1" id="Ref-Vl-yt2"/>
+                            <constraint firstItem="eHC-VD-2a8" firstAttribute="top" secondItem="JCO-rW-hlx" secondAttribute="bottom" constant="1" id="Rrx-8n-5WD"/>
+                            <constraint firstItem="JCO-rW-hlx" firstAttribute="trailing" secondItem="iEz-x4-iHK" secondAttribute="trailing" id="r3A-6w-5or"/>
+                            <constraint firstItem="JCO-rW-hlx" firstAttribute="leading" secondItem="iEz-x4-iHK" secondAttribute="leading" id="urc-5J-u6Y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deleteSwitch" destination="kur-rg-Emj" id="XOd-Nn-YvZ"/>
+                        <outlet property="linkPathSegment" destination="hXa-Sd-Fp0" id="LSZ-h4-Fx8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2m7-18-hbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165" y="-238"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

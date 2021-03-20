@@ -1,0 +1,6 @@
+framework module Pods_ECSignerForiOS {
+  umbrella header "Pods-ECSignerForiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

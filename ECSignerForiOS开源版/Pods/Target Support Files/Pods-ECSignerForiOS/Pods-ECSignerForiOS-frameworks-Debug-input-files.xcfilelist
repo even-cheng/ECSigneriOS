@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-ECSignerForiOS/Pods-ECSignerForiOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ASIHTTPRequest/ASIHTTPRequest.framework
+${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
