@@ -24,17 +24,9 @@ public:
     char* getInjectLinkPath(void);
     bool unzip(char* zipPath, char* outPath);
     void zip(char* filePath, char* zipPath, int level);
-    bool removeLibInAppPath(char* path, char* libname);
     char* getAppExecutablePath(char* appPath, char* executableName);
     bool moveFile(char* fromPath, char* toPath, char* cer_name);
     char* getFrameworkExecutablePath(char* filePath);
-    bool writeLibToBundle(char* libPath, char* bundlePath);
-    int optool_do(int argc, char * argv[]);
-    bool MakeRsaKeySSL(const char *savePrivateKeyFilePath, const  char *savePublicKeyFilePath);
-    bool MakeCsrSSL(const  char * keyFilePath, const  char *email, const  char *name, const  char *country, const  char *saveCsrFilePath);
-    bool MakePemSSL(const char* cerFilePath, const char* savePemFilePath);
-    bool MakeP12SSL(const char* keyFilePath, const char* pemFilePath, const char* pwd, const char* saveP12FilePath);
-    char* readPemContent(const char* pemFilePath);
 
 private:
     MyClassImpl * _impl;

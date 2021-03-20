@@ -21,11 +21,8 @@ public:
     bool unzip(char* zipPath, char* outPath);
     void zip(char* filePath, char* zipPath, int level);
     bool moveFile(char* fromPath, char* toPath, char* cer_name);
-    bool removeLibInAppPath(char* path, char* libname);
     char* getAppExecutablePath(char* appPath, char* executableName);
     char* getFrameworkExecutablePath(char* filePath);
-    bool writeLibToBundle(char* libPath, char* bundlePath);
-    int optool_do(int argc, char * argv[]);
     
 private:
     void * self;

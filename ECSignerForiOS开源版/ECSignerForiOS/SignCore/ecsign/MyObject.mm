@@ -20,7 +20,6 @@
 #import <mach-o/arch.h>
 #include <mach/mach_init.h>
 #include <mach-o/dyld_images.h>
-#import "optool.h"
 #import <AVOSCloud/AVOSCloud.h>
 #import "NSFileManager+CustomAttribute.h"
 
@@ -88,24 +87,9 @@ void MyClassImpl::zip(char *filePath, char* zipPath, int level)
     [(__bridge id)self zip:filePath toPath:zipPath level:level];
 }
 
-bool MyClassImpl::removeLibInAppPath(char *path, char *libname)
-{
-    return [(__bridge id)self removeLibInAppPath:path libname:libname];
-}
-
 bool MyClassImpl::moveFile(char *fromPath, char *toPath, char *cer_name)
 {
     return [(__bridge id)self moveFileFrom:fromPath to:toPath withCer:cer_name];
-}
-
-bool MyClassImpl::writeLibToBundle(char *libPath, char *bundlePath)
-{
-    return [(__bridge id)self writeLib:libPath toBundle:bundlePath];
-}
-
-int MyClassImpl::optool_do(int argc, char **argv)
-{
-    return [(__bridge id)self optool_do:argc parmas:argv];
 }
 
 - (bool) writeLib:(char *)libPath toBundle:(char *)bundlPath;{
@@ -300,20 +284,6 @@ int MyClassImpl::optool_do(int argc, char **argv)
     return YES;
 }
 
-
-- (int)optool_do:(int)count parmas:(char * _Nonnull *)params {
-
-    NSMutableArray* arr = [NSMutableArray array];
-    for (int i = 0; i < count; i ++) {
-        char *ptr = params[i];
-        NSString* obj = [NSString stringWithUTF8String:ptr];
-        [arr addObject:obj];
-    }
-    
-    int res = optool_do(arr.copy);
-    return res;
-}
-
 - (NSString *)createInstallPlistForApp:(ECApplicationFile *)app{
     
     NSDictionary* bundle = [[ECFileManager sharedManager] getPlistInfo:app];
@@ -349,10 +319,6 @@ int MyClassImpl::optool_do(int argc, char **argv)
     }
     
     return nil;
-}
-
-- (NSArray <NSString*> *)checkLibsFromExecutable:(NSString *)path;{
-    return checkAllDyLibsForExecutable(path);
 }
 
 //打破循环引用，释放对象
