@@ -1,4 +1,4 @@
-# ECSigner签名iphone客户端。此项目为开源版，未适配iOS15，完整版安装包请前往(https://github.com/even-cheng/ECSigner)下载
+# ECSigner签名iphone客户端。此项目为开源版，未适配iOS15，完整版安装包请前往[下载](https://github.com/even-cheng/ECSigner)
 
 ## v5.2最新高级版下载：[ECSigner](https://github.com/even-cheng/ECSigner)
 
