@@ -2,7 +2,7 @@
 
 ## v6.0最新高级版下载：[ECSigner](https://github.com/even-cheng/ECSigner)
 #### 介绍：
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/foriOS.JPG)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/foriOS.JPG)
 
 ## v4.5 开源:
 #### 开源基础签名等相关代码
@@ -53,12 +53,12 @@
 #### 包详情和证书文件读取
 #### 下载中心（支持自动下载并分类，支持plist地址自动解析IPA下载）
 
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign1.png)
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign2.png)
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign3.png)
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign4.png)
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign5.png)
-![ sign.png](https://github.com/even-cheng/ECSignerForiOS/blob/master/sign6.png)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/sign1.png)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/sign2.png)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/sign3.png)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/sign4.png)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/sign5.png)
+![ sign.png](https://github.com/even-cheng/ECSigneriOS/blob/master/sign6.png)
 
 ### ECSigner使用说明：
 ##### 1、本工具仅供内部合法使用，请勿使用本工具签名非法APP，否则开发者有权终止您的使用权限，所产生一切后果均与开发者无关。
